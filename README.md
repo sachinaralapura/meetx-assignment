@@ -81,3 +81,7 @@ The following are the available API endpoints.
     - Request Body: `{"activityId": "<activity_id>"}`
 - **GET `/api/v1/activity/book`**: Get all activities booked by the logged-in user. (Authorized Users Only)
     - Requires JWT token in the `Cookie` header (e.g., `token=<your_jwt_token>`).
+
+[API Documentation](apiDocumentation.md)
+[curl Requests](request.md)
+
